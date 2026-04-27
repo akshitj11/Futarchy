@@ -1,0 +1,14 @@
+name = "Futarchy"
+uuid = "f2f6a4c8-2d8d-4d26-9b8e-f0d9a3c6a7e1"
+authors = ["akshitj11 <akshitcasual1@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+ArgParse = "c7e460c6-aeca-5f23-a438-1d1caa9e7ff7"
+Term = "22787eb5-b846-44ae-b979-8e399b8463ab"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
